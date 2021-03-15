@@ -7,7 +7,6 @@ TOC_TITLE = "\n### {}\n"
 TOC_LIST = "* [{}]({})"
 IGNORE_DIRS = [
     ".git",
-    "old",
     "static",
 ]
 
@@ -36,11 +35,12 @@ class Generate():
             dirs[:] = [d for d in dirs if d not in IGNORE_DIRS]
             if root == "./":
                 continue
-            title = root.split("./")[-1]
-            self.write(home, TOC_TITLE.format(title.capitalize()))
-            self.write(sidebar, TITLE.format(title.capitalize()))
-            for file in files:
-                subtitle, path = file[:-3], f"{title}/{file}"
+            title = root.split("./")[-1].capitalize()
+            self.write(home, TOC_TITLE.format(title))
+            self.write(sidebar, TITLE.format(title))
+            for file in sorted(files):
+                subtitle = file[:-3].replace("_", " ").capitalize()
+                path = f"{title}/{file}"
                 self.write(home, TOC_LIST.format(subtitle, path))
                 self.write(sidebar, SUBTITLE.format(subtitle, path))
         sidebar.close()

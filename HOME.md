@@ -6,8 +6,8 @@
 
 ### Temp_section
 
-* [temp_post](temp_section/temp_post.md)
+* [Temp post](Temp_section/temp_post.md)
 
 ### Temp_section2
 
-* [temp_post2](temp_section2/temp_post2.md)
+* [Temp post2](Temp_section2/temp_post2.md)
