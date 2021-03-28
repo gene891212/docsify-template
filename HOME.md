@@ -4,10 +4,10 @@
 
 ## Table Of Contents
 
-### Temp_section
+### Section
 
-* [Temp post](Temp_section/temp_post.md)
+* [Post](section/post.md)
 
-### Temp_section2
+### Section2
 
-* [Temp post2](Temp_section2/temp_post2.md)
+* [Post2](section2/post2.md)
