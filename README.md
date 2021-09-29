@@ -13,12 +13,12 @@ cd <Project>
 python3 -m http.server
 ```
 
-### Deploy on github page
+### Deploy on the Github Page
 
 1. Fork this repository
 2. Click Settings of the repository
 3. Click Pages on the sidebar
-4. Select Source with branch master
+4. Select Source with master branch
 5. Click Save
 6. Enjoy!! 
 
