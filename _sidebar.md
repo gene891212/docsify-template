@@ -1,4 +1,4 @@
-* Section
-    * [Post](section/post.md)
-* Section2
-    * [Post2](section2/post2.md)
+* Category_1
+    * [Post](Category_1/post.md)
+* Category_2
+    * [Post2](Category_2/post2.md)

@@ -2,12 +2,5 @@
 
 > Introduce your book here
 
-## Table Of Contents
+This page is render by file: `HOME.md`
 
-### Section
-
-* [Post](section/post.md)
-
-### Section2
-
-* [Post2](section2/post2.md)
